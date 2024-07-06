@@ -1,0 +1,44 @@
+// ManagerDevices.scss
+
+.manager-devices-container {
+    padding: 20px;
+    
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .devices-contents {
+      .btn-add-new {
+        margin-bottom: 20px;
+      }
+      
+      .btn-table-container {
+        .table-devices-container {
+          .table {
+            margin-bottom: 0;
+            
+            th {
+              font-weight: bold;
+            }
+            
+            td {
+              vertical-align: middle;
+            }
+            
+            .btn {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      
+      .pagination-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    }
+  }
+  

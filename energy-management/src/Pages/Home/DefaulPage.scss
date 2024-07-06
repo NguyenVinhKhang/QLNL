@@ -1,0 +1,20 @@
+#basic-nav-dropdown{
+  color: #fff;
+}
+.defaul-container {
+  display: flex;
+  .defaul-sidebar {
+    .pro-sidebar {
+      height: 100vh !important;
+    }
+  }
+  .defaul-content {
+    width: 100%;
+    .defaul-header {
+      height: 40px;
+      
+    }
+    .defaul-main {
+    }
+  }
+}
